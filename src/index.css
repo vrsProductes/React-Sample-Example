@@ -1,0 +1,32 @@
+.remove-btn{
+    cursor: pointer;
+}
+
+.counter-btns{
+    display: flex;
+    justify-content: center;
+}
+
+.counter-btns button{
+   margin: 0 5px;
+   text-transform: lowercase;
+}
+
+.namecard{
+    text-transform: capitalize;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
